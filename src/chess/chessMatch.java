@@ -13,7 +13,7 @@ import chess.pieces.Rook;
 public class chessMatch {
 
 	private int turn;
-	private static Color currentPlayer;
+	private Color currentPlayer;
 	private Board board;
 	private boolean check;
 	private boolean checkMate;
@@ -32,7 +32,7 @@ public class chessMatch {
 		return turn;
 	}
 	
-	public static Color getCurrentPlayer() {
+	public Color getCurrentPlayer() {
 		return currentPlayer;
 	}
 	
